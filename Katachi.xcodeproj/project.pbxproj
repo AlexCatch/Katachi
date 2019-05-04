@@ -15,6 +15,16 @@
 		FA76051E227DD15C0013F178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76051C227DD15C0013F178 /* Main.storyboard */; };
 		FA760520227DD15D0013F178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA76051F227DD15D0013F178 /* Assets.xcassets */; };
 		FA760523227DD15D0013F178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA760521227DD15D0013F178 /* LaunchScreen.storyboard */; };
+		FA760536227DD6980013F178 /* KatachiCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760528227DD6980013F178 /* KatachiCollectionViewManager.swift */; };
+		FA760537227DD6980013F178 /* KatachiTextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA76052B227DD6980013F178 /* KatachiTextCollectionViewCell.xib */; };
+		FA760538227DD6980013F178 /* KatachiTextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76052C227DD6980013F178 /* KatachiTextCollectionViewCell.swift */; };
+		FA760539227DD6980013F178 /* IsKatachiSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76052E227DD6980013F178 /* IsKatachiSection.swift */; };
+		FA76053A227DD6980013F178 /* IsKatachiQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76052F227DD6980013F178 /* IsKatachiQuestion.swift */; };
+		FA76053B227DD6980013F178 /* IsKatachiQuestionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760530227DD6980013F178 /* IsKatachiQuestionOptions.swift */; };
+		FA76053C227DD6980013F178 /* KatachiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760531227DD6980013F178 /* KatachiCollectionViewCell.swift */; };
+		FA76053D227DD6980013F178 /* KatachiKeyboardOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760533227DD6980013F178 /* KatachiKeyboardOptions.swift */; };
+		FA76053E227DD6980013F178 /* KatachiSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760534227DD6980013F178 /* KatachiSection.swift */; };
+		FA76053F227DD6980013F178 /* KatachiQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760535227DD6980013F178 /* KatachiQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +51,16 @@
 		FA76051F227DD15D0013F178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA760522227DD15D0013F178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA760524227DD15D0013F178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA760528227DD6980013F178 /* KatachiCollectionViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiCollectionViewManager.swift; sourceTree = "<group>"; };
+		FA76052B227DD6980013F178 /* KatachiTextCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KatachiTextCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA76052C227DD6980013F178 /* KatachiTextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiTextCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA76052E227DD6980013F178 /* IsKatachiSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsKatachiSection.swift; sourceTree = "<group>"; };
+		FA76052F227DD6980013F178 /* IsKatachiQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsKatachiQuestion.swift; sourceTree = "<group>"; };
+		FA760530227DD6980013F178 /* IsKatachiQuestionOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsKatachiQuestionOptions.swift; sourceTree = "<group>"; };
+		FA760531227DD6980013F178 /* KatachiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA760533227DD6980013F178 /* KatachiKeyboardOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiKeyboardOptions.swift; sourceTree = "<group>"; };
+		FA760534227DD6980013F178 /* KatachiSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiSection.swift; sourceTree = "<group>"; };
+		FA760535227DD6980013F178 /* KatachiQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,10 @@
 		FA7604FA227DD11D0013F178 /* Katachi */ = {
 			isa = PBXGroup;
 			children = (
+				FA760529227DD6980013F178 /* Cells */,
+				FA760528227DD6980013F178 /* KatachiCollectionViewManager.swift */,
+				FA760532227DD6980013F178 /* Models */,
+				FA76052D227DD6980013F178 /* Protocols */,
 				FA7604FB227DD11D0013F178 /* Katachi.h */,
 				FA7604FC227DD11D0013F178 /* Info.plist */,
 			);
@@ -118,6 +142,44 @@
 				FA760524227DD15D0013F178 /* Info.plist */,
 			);
 			path = KatachiExamples;
+			sourceTree = "<group>";
+		};
+		FA760529227DD6980013F178 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA76052A227DD6980013F178 /* FormationTextCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA76052A227DD6980013F178 /* FormationTextCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA76052B227DD6980013F178 /* KatachiTextCollectionViewCell.xib */,
+				FA76052C227DD6980013F178 /* KatachiTextCollectionViewCell.swift */,
+			);
+			path = FormationTextCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		FA76052D227DD6980013F178 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FA76052E227DD6980013F178 /* IsKatachiSection.swift */,
+				FA76052F227DD6980013F178 /* IsKatachiQuestion.swift */,
+				FA760530227DD6980013F178 /* IsKatachiQuestionOptions.swift */,
+				FA760531227DD6980013F178 /* KatachiCollectionViewCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA760532227DD6980013F178 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA760533227DD6980013F178 /* KatachiKeyboardOptions.swift */,
+				FA760534227DD6980013F178 /* KatachiSection.swift */,
+				FA760535227DD6980013F178 /* KatachiQuestion.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +261,7 @@
 				TargetAttributes = {
 					FA7604F7227DD11D0013F178 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					FA760500227DD11D0013F178 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -233,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA760537227DD6980013F178 /* KatachiTextCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA760539227DD6980013F178 /* IsKatachiSection.swift in Sources */,
+				FA760536227DD6980013F178 /* KatachiCollectionViewManager.swift in Sources */,
+				FA76053D227DD6980013F178 /* KatachiKeyboardOptions.swift in Sources */,
+				FA76053C227DD6980013F178 /* KatachiCollectionViewCell.swift in Sources */,
+				FA760538227DD6980013F178 /* KatachiTextCollectionViewCell.swift in Sources */,
+				FA76053E227DD6980013F178 /* KatachiSection.swift in Sources */,
+				FA76053A227DD6980013F178 /* IsKatachiQuestion.swift in Sources */,
+				FA76053F227DD6980013F178 /* KatachiQuestion.swift in Sources */,
+				FA76053B227DD6980013F178 /* IsKatachiQuestionOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +508,7 @@
 		FA76050D227DD11E0013F178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -452,6 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tech.catchpole.Katachi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +535,7 @@
 		FA76050E227DD11E0013F178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -485,6 +561,7 @@
 		FA760510227DD11E0013F178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NWLJ33LJ5;
 				INFOPLIST_FILE = KatachiTests/Info.plist;
@@ -503,6 +580,7 @@
 		FA760511227DD11E0013F178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NWLJ33LJ5;
 				INFOPLIST_FILE = KatachiTests/Info.plist;
