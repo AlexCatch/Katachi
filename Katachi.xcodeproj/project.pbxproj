@@ -18,7 +18,6 @@
 		FA760536227DD6980013F178 /* KatachiCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760528227DD6980013F178 /* KatachiCollectionViewManager.swift */; };
 		FA760539227DD6980013F178 /* IsKatachiSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76052E227DD6980013F178 /* IsKatachiSection.swift */; };
 		FA76053A227DD6980013F178 /* IsKatachiQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76052F227DD6980013F178 /* IsKatachiQuestion.swift */; };
-		FA76053B227DD6980013F178 /* IsKatachiQuestionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760530227DD6980013F178 /* IsKatachiQuestionOptions.swift */; };
 		FA76053C227DD6980013F178 /* KatachiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760531227DD6980013F178 /* KatachiCollectionViewCell.swift */; };
 		FA760541227DF6FB0013F178 /* KatachiCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA760540227DF6FB0013F178 /* KatachiCollectionReusableView.swift */; };
 		FA76054B227F3A4F0013F178 /* KatachiCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76054A227F3A4F0013F178 /* KatachiCollectionViewCellDelegate.swift */; };
@@ -61,7 +60,6 @@
 		FA76052C227DD6980013F178 /* KatachiTextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiTextCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA76052E227DD6980013F178 /* IsKatachiSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsKatachiSection.swift; sourceTree = "<group>"; };
 		FA76052F227DD6980013F178 /* IsKatachiQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsKatachiQuestion.swift; sourceTree = "<group>"; };
-		FA760530227DD6980013F178 /* IsKatachiQuestionOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsKatachiQuestionOptions.swift; sourceTree = "<group>"; };
 		FA760531227DD6980013F178 /* KatachiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA760534227DD6980013F178 /* KatachiSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiSection.swift; sourceTree = "<group>"; };
 		FA760535227DD6980013F178 /* KatachiQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatachiQuestion.swift; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 			children = (
 				FA76052E227DD6980013F178 /* IsKatachiSection.swift */,
 				FA76052F227DD6980013F178 /* IsKatachiQuestion.swift */,
-				FA760530227DD6980013F178 /* IsKatachiQuestionOptions.swift */,
 				FA760531227DD6980013F178 /* KatachiCollectionViewCell.swift */,
 				FA760540227DF6FB0013F178 /* KatachiCollectionReusableView.swift */,
 				FA76054A227F3A4F0013F178 /* KatachiCollectionViewCellDelegate.swift */,
@@ -370,7 +367,6 @@
 				FA76053C227DD6980013F178 /* KatachiCollectionViewCell.swift in Sources */,
 				FA76054B227F3A4F0013F178 /* KatachiCollectionViewCellDelegate.swift in Sources */,
 				FA76053A227DD6980013F178 /* IsKatachiQuestion.swift in Sources */,
-				FA76053B227DD6980013F178 /* IsKatachiQuestionOptions.swift in Sources */,
 				FA760541227DF6FB0013F178 /* KatachiCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

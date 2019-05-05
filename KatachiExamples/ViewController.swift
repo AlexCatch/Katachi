@@ -16,28 +16,24 @@ class ViewController: UIViewController, KatachiCollectionViewManagerDelegate, Ka
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.manager = KatachiCollectionViewManager(delegate: self, collectionView: collectionView)
-        manager.sections =  [
-            KatachiSection(title: "Hello world", questions: [
-                KatachiQuestion(title: "Question", type: KatachiTextCollectionViewCell.self, key: "oooo", additionalOptions: ["placeholder": "Start Typing..."]),
-                KatachiQuestion(title: "Question", type: KatachiTextCollectionViewCell.self, key: "oooo", additionalOptions: ["placeholder": "Start Typing..."]),
-                KatachiQuestion(title: "Question", type: KatachiTextCollectionViewCell.self, key: "oooo", additionalOptions: ["placeholder": "Start Typing..."]),
-                KatachiQuestion(title: "Question", type: KatachiTextCollectionViewCell.self, key: "oooo", additionalOptions: ["placeholder": "Start Typing..."]),
-                KatachiQuestion(title: "Question", type: KatachiTextCollectionViewCell.self, key: "oooo", additionalOptions: ["placeholder": "Start Typing..."]),
-                KatachiQuestion(title: "Question", type: KatachiTextCollectionViewCell.self, key: "oooo", additionalOptions: ["placeholder": "Start Typing..."]),
-                KatachiQuestion(title: "Question", type: KatachiPickerCollectionViewCell.self, key: "oooo", additionalOptions: [
-                    "options": [
-                        "hello",
-                        "hello world",
-                        "hello world hello",
-                        "hello world hello world",
-                    ],
-                    "placeholder": "Choose an option"
-                    ])
-                ])
+        let manager = KatachiCollectionViewManager(delegate: self, collectionView: collectionView)
+        manager.sections = [
+            KatachiSection(
+                title: "Hello world",
+                questions: [
+                    KatachiQuestion(
+                        title: "Question",
+                        type: KatachiTextCollectionViewCell.self,
+                        key: "Question One",
+                        additionalOptions: [
+                            "placeholder": "Start Typing..."
+                        ]
+                    )
+                ]
+            )
         ]
         manager.cellDelegate = self
-        manager.numberOfColumns = 1
+        manager.numberOfColumns = 2
         collectionView.reloadData()
     }
     
