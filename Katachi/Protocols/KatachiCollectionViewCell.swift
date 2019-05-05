@@ -15,7 +15,5 @@ public protocol KatachiCollectionViewCell: UICollectionViewCell {
     var question: IsKatachiQuestion! { get set }
     var height: CGFloat { get set }
     
-    var collectionView: UICollectionView?
-    
     func setup()
 }
