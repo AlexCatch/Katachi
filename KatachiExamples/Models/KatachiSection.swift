@@ -6,10 +6,11 @@
 //
 
 import Foundation
-
+import Katachi
 public struct KatachiSection: IsKatachiSection {
     public var title: String?
     public var questions: [IsKatachiQuestion]!
+    public var type: KatachiCollectionReusableView.Type! = KatachiHeaderCollectionReusableView.self
     
     public init(title: String?, questions: [IsKatachiQuestion]) {
         self.title = title

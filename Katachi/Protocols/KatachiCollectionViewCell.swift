@@ -8,8 +8,14 @@
 import Foundation
 
 public protocol KatachiCollectionViewCell: UICollectionViewCell {
-    var question: IsKatachiQuestion! { get set }
     static var nibName: String! { get set }
-    static var isCustom: Bool { get set }
+    
+    var delegate: KatachiCollectionViewCellDelegate? { get set }
+    
+    var question: IsKatachiQuestion! { get set }
+    var height: CGFloat { get set }
+    
+    var collectionView: UICollectionView?
+    
     func setup()
 }

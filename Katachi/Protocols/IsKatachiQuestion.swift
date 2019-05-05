@@ -11,5 +11,7 @@ public protocol IsKatachiQuestion {
     var title: String! { get set }
     var key: String! { get set }
     var value: Any? { get set }
-    var type: KatachiTextCollectionViewCell.Type! { get set }
+    var type: KatachiCollectionViewCell.Type! { get set }
+    
+    var additionalOptions: [String: Any]! { get set }
 }

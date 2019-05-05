@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="KatachiPickerCollectionViewCell" id="UT1-Ga-h20" customClass="KatachiPickerCollectionViewCell" customModule="KatachiExamples" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="484" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ha-OW-xlf">
+                        <rect key="frame" x="20" y="14" width="444" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ll-BA-ZR4">
+                        <rect key="frame" x="20" y="33.5" width="444" height="32.5"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4ll-BA-ZR4" secondAttribute="trailing" constant="20" id="F8S-TS-Nd6"/>
+                <constraint firstItem="4ll-BA-ZR4" firstAttribute="top" secondItem="4ha-OW-xlf" secondAttribute="bottom" id="Pq2-oe-YYD"/>
+                <constraint firstItem="4ll-BA-ZR4" firstAttribute="leading" secondItem="UT1-Ga-h20" secondAttribute="leading" constant="20" id="aHi-I8-kbe"/>
+                <constraint firstAttribute="bottom" secondItem="4ll-BA-ZR4" secondAttribute="bottom" constant="14" id="aWg-Lk-Ayv"/>
+                <constraint firstItem="4ha-OW-xlf" firstAttribute="top" secondItem="UT1-Ga-h20" secondAttribute="top" constant="14" id="bvj-B2-kfv"/>
+                <constraint firstItem="4ha-OW-xlf" firstAttribute="leading" secondItem="UT1-Ga-h20" secondAttribute="leading" constant="20" id="s6q-BD-3fi"/>
+                <constraint firstAttribute="trailing" secondItem="4ha-OW-xlf" secondAttribute="trailing" constant="20" id="tje-lE-4KK"/>
+                <constraint firstItem="4ll-BA-ZR4" firstAttribute="top" secondItem="4ha-OW-xlf" secondAttribute="bottom" id="whw-9h-J42"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="V7a-x8-qx8"/>
+            <size key="customSize" width="484" height="90"/>
+            <connections>
+                <outlet property="answerTextField" destination="4ll-BA-ZR4" id="nWg-aT-smG"/>
+                <outlet property="questionTitleLabel" destination="4ha-OW-xlf" id="8iM-fR-Tdr"/>
+            </connections>
+            <point key="canvasLocation" x="450.72463768115944" y="136.60714285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>
