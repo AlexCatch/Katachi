@@ -1,4 +1,4 @@
-# Katachi
+# 形 Katachi
 ![Code example](assets/code-example.png)
 
 ## What is it?
